@@ -122,13 +122,14 @@ menu_icon: house-door
   
 </style>
 
-
+<!-- Header -->
 <div class="section-card">
   <h2 class="section-title">Primary Goals</h2>
   <p style="text-align: center; margin: 0; color: #333;">Accelerating scientific discovery by transitioning from human-speed microscopy to autonomous operations. We harness large language models and machine learning to uncover structure-property relationships and close the loop on material synthesis and characterization.
   </p>
 </div>
 
+<!-- ML and AE -->
 <h2 class="section-title">ML & AE</h2>
 <div class="section-card">
   <div class="section-grid">
@@ -146,10 +147,12 @@ menu_icon: house-door
   </div>
 </div>
 
+
+<!-- Labs -->
 <div class="section-grid">
   
   <div class="project-card" style="padding: 0;">
-    <a href="ahmadi-lab.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+    <a href="https://ahmadiresearch.utk.edu/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>AHMADI Research Lab</h3>
       <p style="margin-bottom: 8px;"><em><strong>A</strong>ccelerating <strong>H</strong>ybrid <strong>M</strong>aterials by <strong>A</strong>utomated <strong>D</strong>iscovery <strong>I</strong>nnovation.</em></p>
       <p style="margin-top: 0;">Pioneering AI-driven automated synthesis and high-throughput workflows to solve global renewable energy and optoelectronic challenges.</p>
@@ -157,33 +160,35 @@ menu_icon: house-door
   </div>
   
   <div class="project-card" style="padding: 0;">
-    <a href="cmp.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+    <a href="https://cmp.utk.edu/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>Center for Materials Processing</h3>
       <p style="margin-bottom: 8px;"><em>Directed by Philip Rack</em></p>
       <p style="margin-top: 0;">Fostering interdisciplinary research in materials processing to drive new product development, solve performance challenges, and improve industrial competitiveness.</p>
     </a>
   </div>
-  
-  <div class="project-card">
-    <h3>Nanoindentation<br>Dayakar Penumadu Lab</h3>
-    <p> </p>
+
+  <div class="project-card" style="padding: 0;">
+    <div style="display: block; padding: 18px 14px; height: 100%; box-sizing: border-box;">
+      <h3>Nanoindentation<br>Dayakar Penumadu Lab</h3>
+      <p style="margin-top: 0;"> </p>
+    </div>
   </div>
   
 </div>
 
-
+<!-- Workflows -->
 <h2 class="section-title" style="padding-top: 40px;">Techniques & Workflows</h2>
 <div class="projects-grid">
 
   <div class="project-card" style="padding: 0;">
-    <a href="ae-spm.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+    <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>AE SPM</h3>
       <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
     </a>
   </div>
 
   <div class="project-card" style="padding: 0;">
-    <a href="ae-stem.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+    <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>AE STEM</h3>
       <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
     </a>
@@ -197,12 +202,15 @@ menu_icon: house-door
         <span style="font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600;">— Richard Feynman</span>
       </p>
       <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
-    </a>
+    </a>    
   </div>
-  <div class="project-card template-card">
-    <h3>Xray</h3>
-    <p><em>Currently in development.</em></p>
+  
+  <div class="project-card template-card" style="padding: 0;">
+    <div style="display: block; padding: 18px 14px; height: 100%; box-sizing: border-box;">
+      <h3>Xray</h3>
+      <p style="margin-top: 0;"><em>Currently in development.</em></p>
+    </div>
   </div>
-</div>
+
 
 <!-- <a href="#" class="utk-float-btn">Contact Lab</a> -->
