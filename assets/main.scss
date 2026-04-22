@@ -25,13 +25,15 @@ $header-brand-color: #fd7e14; // Orange
     
     color: #c3c3c3;
     min-height: 80px;
+    padding-top: 8px;
 }
 
 .site-title {
     display: block;
-    background: no-repeat center left url(logo.png);
+    /* Fixed syntax: 'left center' keeps the logo vertically centered */
+    background: url(logo.png) no-repeat left center; 
     background-size: 60px;
-    padding: 15px 0 15px 70px;
+    padding: 15px 0 15px 75px; /* Bumped to 75px for more space between logo and text */
     line-height: 23px;
     font-weight: 500;
     margin-right: 10px;
