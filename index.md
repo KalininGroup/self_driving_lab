@@ -128,22 +128,23 @@ menu_icon: house-door
   <p style="text-align: center; margin: 0; color: #333;">To automate and optimize material synthesis and characterization pipelines using machine learning and agentic workflows.</p>
 </div>
 
+<h2 class="section-title">ML & AE</h2>
 <div class="section-card">
-  <div class="two-col-grid">
+  <div class="section-grid">
     <div class="project-card">
-      <h3>ML & AE</h3>
       <p><strong>Agentic</strong></p>
-      <p><strong>Optimization</strong></p>
-      <p><strong>Other Models</strong></p>
+    </div>
+    <div class="project-card">
+      <p><strong>Optimization</strong></p>      
     </div>
     <div class="project-card">
       <h3>Hackathon</h3>
-      <p>Upcoming events and rapid prototyping results.</p>
+      <p>Upcoming events</p>      
+      <p><strong>Other</strong></p>
     </div>
   </div>
 </div>
 
-<h2 class="section-title" style="margin-top: 40px;">Partner Labs</h2>
 <div class="section-grid">
   <div class="project-card">
     <h3>AHMADI Lab</h3>
@@ -159,7 +160,7 @@ menu_icon: house-door
   </div>
 </div>
 
-<h2 class="section-title">Techniques & Workflows</h2>
+<h2 class="section-title" style="margin-top: 40px;">Techniques & Workflows</h2>
 <div class="projects-grid">
   <div class="project-card">
     <h3>AE SPM</h3>
@@ -175,7 +176,7 @@ menu_icon: house-door
   </div>
   <div class="project-card template-card">
     <h3>Xray</h3>
-    <p><em>Template for future project integration. Currently in development.</em></p>
+    <p><em>Currently in development.</em></p>
   </div>
 </div>
 
