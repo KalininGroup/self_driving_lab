@@ -14,8 +14,11 @@ $header-brand-color: #fd7e14; // Orange
     top: 0;
     z-index: 1000; /* Keeps the header above your project cards */
     
-    /* Glacier Glass Effect */
-    background: rgba(29, 29, 29, 0.75); /* Dark background at 75% opacity */
+    /* Override Minima's default top border */
+    border-top: none; 
+    
+    /* Glacier Glass Effect in Dark Blue (#1d2a56) */
+    background: rgba(29, 42, 86, 0.85); /* 85% opacity for a rich blue glass look */
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08); /* Soft bottom edge */
@@ -23,7 +26,6 @@ $header-brand-color: #fd7e14; // Orange
     color: #c3c3c3;
     min-height: 80px;
 }
-
 .site-title {
     display: block;
     background: no-repeat center left url(logo.png);
