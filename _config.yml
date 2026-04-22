@@ -11,7 +11,7 @@ mailbox_address:
 description: |
   Hackathon
 
-url: "https://kaliningroup.github.io/dummy_website/"
+url: "https://kaliningroup.github.io/self_driving_lab/"
 github_repo: kaliningroup
 
 theme: minima
@@ -19,10 +19,7 @@ theme: minima
 # The actual visibility of the nav bar links is influenced by the event_status
 # and registration_status flags below
 header_pages:
-  - registration.md
-  - agenda.md
-  - submission.md
-  - videos-slides.md
+  - index.md
   - about.md
 
 # Event status
