@@ -52,7 +52,7 @@ menu_icon: house-door
   border: 1px solid #e8ecf3;
   border-radius: 14px;
   padding: 18px 14px;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 1px 2px rgba(16,24,40,.04);
   height: 100%;
 }
@@ -198,11 +198,11 @@ menu_icon: house-door
     <a href="fabrication.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>Fabrication / Synthesis</h3>
       <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
-        "What I cannot make, I cannot understand."<br>
-        <span style="font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600;">— Richard Feynman</span>
+        "What I cannot make, I cannot understand."
+        <span style="display: block; text-align: right; font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600; margin-top: 4px;">— Richard Feynman</span>
       </p>
       <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
-    </a>    
+    </a>
   </div>
   
   <div class="project-card template-card" style="padding: 0;">
