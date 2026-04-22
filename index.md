@@ -125,7 +125,8 @@ menu_icon: house-door
 
 <div class="section-card">
   <h2 class="section-title">Primary Goals</h2>
-  <p style="text-align: center; margin: 0; color: #333;">To automate and optimize material synthesis and characterization pipelines using machine learning and agentic workflows.</p>
+  <p style="text-align: center; margin: 0; color: #333;">Accelerating scientific discovery by transitioning from human-speed microscopy to autonomous operations. We harness large language models and machine learning to uncover structure-property relationships and close the loop on material synthesis and characterization.
+  </p>
 </div>
 
 <h2 class="section-title">ML & AE</h2>
@@ -146,33 +147,57 @@ menu_icon: house-door
 </div>
 
 <div class="section-grid">
-  <div class="project-card">
-    <h3>AHMADI Lab</h3>
-    <p>Focusing on advanced microscopy automation and autonomous data acquisition.</p>
+  
+  <div class="project-card" style="padding: 0;">
+    <a href="ahmadi-lab.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+      <h3>AHMADI Research Lab</h3>
+      <p style="margin-bottom: 8px;"><em><strong>A</strong>ccelerating <strong>H</strong>ybrid <strong>M</strong>aterials by <strong>A</strong>utomated <strong>D</strong>iscovery <strong>I</strong>nnovation.</em></p>
+      <p style="margin-top: 0;">Pioneering AI-driven automated synthesis and high-throughput workflows to solve global renewable energy and optoelectronic challenges.</p>
+    </a>
   </div>
-  <div class="project-card">
-    <h3>Philip Rack Lab</h3>
-    <p>Nanofabrication, focused electron beam induced processing, and material characterization.</p>
+  
+  <div class="project-card" style="padding: 0;">
+    <a href="cmp.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+      <h3>Center for Materials Processing</h3>
+      <p style="margin-bottom: 8px;"><em>Directed by Philip Rack</em></p>
+      <p style="margin-top: 0;">Fostering interdisciplinary research in materials processing to drive new product development, solve performance challenges, and improve industrial competitiveness.</p>
+    </a>
   </div>
+  
   <div class="project-card">
-    <h3>Nanoindentation<br>(Dayakar Lab)</h3>
-    <p>High-throughput mechanical testing and autonomous property mapping.</p>
+    <h3>Nanoindentation<br>Dayakar Penumadu Lab</h3>
+    <p> </p>
   </div>
+  
 </div>
 
-<h2 class="section-title" style="margin-top: 40px;">Techniques & Workflows</h2>
+
+<h2 class="section-title" style="padding-top: 40px;">Techniques & Workflows</h2>
 <div class="projects-grid">
-  <div class="project-card">
-    <h3>AE SPM</h3>
-    <p>Automated scanning probe microscopy and KPFM surface potential workflows.</p>
+
+  <div class="project-card" style="padding: 0;">
+    <a href="ae-spm.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+      <h3>AE SPM</h3>
+      <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
+    </a>
   </div>
-  <div class="project-card">
-    <h3>AE STEM</h3>
-    <p>Transmission electron microscopy automation, HAADF mode physics, and spectral analysis.</p>
+
+  <div class="project-card" style="padding: 0;">
+    <a href="ae-stem.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+      <h3>AE STEM</h3>
+      <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
+    </a>
   </div>
-  <div class="project-card">
-    <h3>Fabrication / Synthesis</h3>
-    <p>Closed-loop material synthesis and experimental validation.</p>
+  
+  <div class="project-card" style="padding: 0;">
+    <a href="fabrication.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+      <h3>Fabrication / Synthesis</h3>
+      <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
+        "What I cannot make, I cannot understand."<br>
+        <span style="font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600;">— Richard Feynman</span>
+      </p>
+      <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
+    </a>
   </div>
   <div class="project-card template-card">
     <h3>Xray</h3>
