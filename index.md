@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Event name
+title: Self-Driving Lab
 menu_title: Home
 menu_icon: house-door
 ---
 ## This a dummy website template
 
-Event description
+Description
 
 
 ## Logistics
 
-Link to zoom meetings
+
 
 
 ## Prizes
