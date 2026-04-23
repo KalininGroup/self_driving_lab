@@ -108,6 +108,15 @@ menu_icon: house-door
   .utk-float-btn:hover {
     transform: translateY(-2px);
   }
+  
+  .embedded-video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    background: #000; /* Keeps a black background while loading */
+}
 
   /* Mobile scaling */
 @media (max-width: 700px) {
@@ -188,10 +197,7 @@ menu_icon: house-door
     <div class="card-body">
       <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>      
       <div class="expanded-content">
-        <video width="100%" controls muted loop>
-          <source src="assets/videos/aespm-demo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allow="autoplay" allowfullscreen></iframe>
         <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" class="btn" style="margin-top: 15px;">Read More</a>
       </div>
     </div>
