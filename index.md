@@ -192,7 +192,7 @@ menu_icon: house-door
           <source src="assets/videos/aespm-demo.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
-        <a href="ae-spm.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+        <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" class="btn" style="margin-top: 15px;">Read More</a>
       </div>
     </div>
   </div>
@@ -207,7 +207,7 @@ menu_icon: house-door
         <video width="100%" controls muted loop>
           <source src="assets/videos/aestem-demo.mp4" type="video/mp4">
         </video>
-        <a href="ae-stem.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+        <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" class="btn" style="margin-top: 15px;">Read More</a>
       </div>
     </div>
   </div>
@@ -226,7 +226,7 @@ menu_icon: house-door
         <video width="100%" controls muted loop>
           <source src="assets/videos/fab-demo.mp4" type="video/mp4">
         </video>
-        <a href="fabrication.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+        <a href="https://ae-spm.utk.edu/atomic-fabrication/" class="btn" style="margin-top: 15px;">Read More</a>
       </div>
     </div>
   </div>
