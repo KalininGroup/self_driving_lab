@@ -195,7 +195,7 @@ menu_icon: house-door
   </div>
   
   <div class="project-card" style="padding: 0;">
-    <a href="fabrication.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+    <a href="https://ae-spm.utk.edu/atomic-fabrication/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
       <h3>Fabrication / Synthesis</h3>
       <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
         "What I cannot make, I cannot understand."
