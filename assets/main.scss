@@ -167,6 +167,10 @@ $header-brand-color: #fd7e14; // Orange
     order: 1; /* Drop to the bottom so title cards jump on top! */
     cursor: default; /* Remove pointer since it is already open */
     border-color: #1d2a56; /* Highlight the active card */
+   
+   /* THE FIX: Forces the expanded card to the top visual layer */
+    position: relative;
+    z-index: 10;
 }
 
 .interactive-grid .expandable-card.is-expanded .expanded-content {
