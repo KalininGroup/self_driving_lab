@@ -179,17 +179,32 @@ $header-brand-color: #fd7e14; // Orange
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Desktop layout: Put description and video side-by-side when expanded */
-@media (min-width: 800px) {
-    .interactive-grid .expandable-card.is-expanded .card-body {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /* 50/50 split */
-        gap: 30px;
-        align-items: center;
-    }
-    .interactive-grid .expandable-card.is-expanded .expanded-content {
-        margin-top: 0;
-        border-top: none;
-        padding-top: 0;
-    }
+/* =========================================
+   Expanded Layout: Stacked (Text Top, Video Bottom)
+   ========================================= */
+.interactive-grid .expandable-card.is-expanded .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.interactive-grid .expandable-card.is-expanded .expanded-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the video and the button */
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 25px;
+    border-top: 1px solid #e8ecf3; /* Adds a clean separator line under the text */
+}
+
+.embedded-video {
+    width: 100%;
+    max-width: 850px; /* Prevents the video from becoming absurdly huge on wide monitors */
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    background: #000;
+    margin-bottom: 20px; /* Space between the video and the Read More button */
 }
