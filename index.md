@@ -210,9 +210,7 @@ menu_icon: house-door
     <div class="card-body">
       <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>      
       <div class="expanded-content">
-        <video width="100%" controls muted loop>
-          <source src="assets/videos/aestem-demo.mp4" type="video/mp4">
-        </video>
+        <iframe class="embedded-video" src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview" allow="autoplay" allowfullscreen></iframe>
         <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" class="btn" style="margin-top: 15px;">Read More</a>
       </div>
     </div>
