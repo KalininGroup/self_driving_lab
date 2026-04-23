@@ -178,39 +178,112 @@ menu_icon: house-door
 
 <!-- Workflows -->
 <h2 class="section-title" style="padding-top: 40px;">Techniques & Workflows</h2>
-<div class="projects-grid">
 
-  <div class="project-card" style="padding: 0;">
-    <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
-      <h3>AE SPM</h3>
-      <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
-    </a>
-  </div>
-
-  <div class="project-card" style="padding: 0;">
-    <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
-      <h3>AE STEM</h3>
-      <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
-    </a>
-  </div>
+<div class="projects-grid interactive-grid">
   
-  <div class="project-card" style="padding: 0;">
-    <a href="https://ae-spm.utk.edu/atomic-fabrication/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
+  <div class="project-card expandable-card">
+    <div class="card-header">
+      <h3>AE SPM</h3>
+    </div>
+    <div class="card-body">
+      <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>      
+      <div class="expanded-content">
+        <video width="100%" controls muted loop>
+          <source src="assets/videos/aespm-demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <a href="ae-spm.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card expandable-card">
+    <div class="card-header">
+      <h3>AE STEM</h3>
+    </div>
+    <div class="card-body">
+      <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>      
+      <div class="expanded-content">
+        <video width="100%" controls muted loop>
+          <source src="assets/videos/aestem-demo.mp4" type="video/mp4">
+        </video>
+        <a href="ae-stem.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card expandable-card">
+    <div class="card-header">
       <h3>Fabrication / Synthesis</h3>
+    </div>
+    <div class="card-body">
       <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
         "What I cannot make, I cannot understand."
         <span style="display: block; text-align: right; font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600; margin-top: 4px;">— Richard Feynman</span>
       </p>
-      <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
-    </a>
-  </div>
-  
-  <div class="project-card template-card" style="padding: 0;">
-    <div style="display: block; padding: 18px 14px; height: 100%; box-sizing: border-box;">
-      <h3>Xray</h3>
-      <p style="margin-top: 0;"><em>Currently in development.</em></p>
+      <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>      
+      <div class="expanded-content">
+        <video width="100%" controls muted loop>
+          <source src="assets/videos/fab-demo.mp4" type="video/mp4">
+        </video>
+        <a href="fabrication.html" class="btn" style="margin-top: 15px;">Read Full Page</a>
+      </div>
     </div>
   </div>
 
+  <div class="project-card expandable-card template-card">
+    <div class="card-header">
+      <h3>Xray</h3>
+    </div>
+    <div class="card-body">
+      <p style="margin-top: 0;"><em>Currently in development.</em></p>
+      <div class="expanded-content">
+        <p>Future video and content will go here.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
 <!-- <a href="#" class="utk-float-btn">Contact Lab</a> -->
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const grids = document.querySelectorAll('.interactive-grid');
+
+    grids.forEach(grid => {
+        const cards = grid.querySelectorAll('.expandable-card');
+
+        cards.forEach(card => {
+            card.addEventListener('click', (e) => {
+                // If they click a video controls or the "Read More" button, don't collapse the card
+                if(e.target.tagName === 'VIDEO' || e.target.tagName === 'A') return;
+
+                const isCurrentlyExpanded = card.classList.contains('is-expanded');
+
+                // Step 1: Close all cards and pause their videos
+                cards.forEach(c => {
+                    c.classList.remove('is-expanded');
+                    const vid = c.querySelector('video');
+                    if(vid) vid.pause(); // Stop video if user clicks away
+                });
+
+                // Step 2: If the clicked card wasn't already open, open it!
+                if (!isCurrentlyExpanded) {
+                    card.classList.add('is-expanded');
+                    grid.classList.add('is-active'); // Tells the grid to collapse the others
+                    
+                    // Optional: Auto-play the video when opened
+                    const vid = card.querySelector('video');
+                    if(vid) vid.play(); 
+                } else {
+                    // If they clicked the already-open card, reset the grid back to normal
+                    grid.classList.remove('is-active');
+                }
+            });
+        });
+    });
+});
+</script>
