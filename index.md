@@ -48,7 +48,7 @@ menu_icon: house-door
 }
 
 .project-card {
-  background: #fafbfd;
+  background: #FFFFFF;
   border: 1px solid #e8ecf3;
   border-radius: 14px;
   padding: 18px 14px;
