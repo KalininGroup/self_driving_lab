@@ -196,31 +196,35 @@ menu_icon: house-door
 
 
 <!-- Labs -->
-<div class="section-grid">
+<div class="section-card">
+  <h2 class="section-title">Automated High Throughput & Combinatorial Synthesis</h2>
   
-  <div class="project-card" style="padding: 0;">
-    <a href="https://ahmadiresearch.utk.edu/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
-      <h3>AHMADI Research Lab</h3>
-      <p style="margin-bottom: 8px;"><em><strong>A</strong>ccelerating <strong>H</strong>ybrid <strong>M</strong>aterials by <strong>A</strong>utomated <strong>D</strong>iscovery <strong>I</strong>nnovation.</em></p>
-      <p style="margin-top: 0;">Pioneering AI-driven automated synthesis and high-throughput workflows to solve global renewable energy and optoelectronic challenges.</p>
-    </a>
-  </div>
-  
-  <div class="project-card" style="padding: 0;">
-    <a href="https://cmp.utk.edu/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%;">
-      <h3>Center for Materials Processing</h3>
-      <p style="margin-bottom: 8px;"><em>Directed by Philip Rack</em></p>
-      <p style="margin-top: 0;">Fostering interdisciplinary research in materials processing to drive new product development, solve performance challenges, and improve industrial competitiveness.</p>
-    </a>
-  </div>
-
-  <div class="project-card" style="padding: 0;">
-    <div style="display: block; padding: 18px 14px; height: 100%; box-sizing: border-box;">
-      <h3>Nanoindentation<br>Dayakar Penumadu Lab</h3>
-      <p style="margin-top: 0;"> </p>
+  <div class="section-grid">    
+    <div class="project-card" style="padding: 0;">
+      <a href="https://ahmadiresearch.utk.edu/" target="_blank" rel="noopener noreferrer" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+        <h3>AHMADI Research Lab</h3>
+        <p style="margin-bottom: 8px;"><em><strong>A</strong>ccelerating <strong>H</strong>ybrid <strong>M</strong>aterials by <strong>A</strong>utomated <strong>D</strong>iscovery <strong>I</strong>nnovation.</em></p>
+        <p style="margin-top: 0;">Pioneering AI-driven automated synthesis and high-throughput workflows to solve global renewable energy and optoelectronic challenges.</p>
+      </a>
+    </div>    
+    <div class="project-card" style="padding: 0;">
+      <a href="https://www.freescience.org/philip/research/combinatorial.htm" target="_blank" rel="noopener noreferrer" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+        <h3>Center for Materials Processing</h3>
+        <p style="margin-bottom: 8px;"><em>Directed by Philip Rack</em></p>
+        <p style="margin-top: 0;">Fostering interdisciplinary research in materials processing to drive new product development, solve performance challenges, and improve industrial competitiveness.</p>
+      </a>
     </div>
+    <div class="project-card" style="padding: 18px 14px; box-sizing: border-box; text-align: left; display: flex; flex-direction: column; height: 100%;">
+      <h3 style="margin-top: 0;">Random Libraries</h3>      
+      <p style="margin-top: 0; margin-bottom: 15px;">Exploring vast material spaces through the automated generation and characterization of random libraries.</p>
+      <ul style="list-style: none; padding: 0; margin: 0;">        
+        <li style="margin-bottom: 12px;">
+          <a href="https://cee.utk.edu/people/dayakar-penumadu/" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-person-circle" style="color: #CC6600;"></i> Dayakar Penumadu
+          </a>
+        </li></ul>
+    </div>   
   </div>
-  
 </div>
 
 <!-- Workflows -->
