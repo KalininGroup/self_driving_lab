@@ -314,7 +314,6 @@ document.addEventListener('DOMContentLoaded', () => {
     grids.forEach(grid => {
         const cards = grid.querySelectorAll('.expandable-card');
         
-        // 1. Create a single Master Panel at the bottom of the grid
         const masterPanel = document.createElement('div');
         masterPanel.className = 'master-expanded-panel';
         masterPanel.style.display = 'none';
@@ -327,21 +326,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const isCurrentlyExpanded = card.classList.contains('is-expanded');
 
-                // 2. Reset all cards and clear the master panel
+                // Reset all cards and clear the master panel
                 cards.forEach(c => c.classList.remove('is-expanded'));
                 masterPanel.style.display = 'none';
                 masterPanel.innerHTML = ''; 
 
-                // 3. If opening a new tab, copy its content to the Master Panel
                 if (!isCurrentlyExpanded) {
                     card.classList.add('is-expanded');
+                    grid.classList.add('is-active'); // Tells CSS a tab is open
                     
-                    // Clone the hidden content and put it in the master panel
-                    const contentToShow = card.querySelector('.expanded-content').cloneNode(true);
+                    // Clone the ENTIRE card body (text AND video) to the Master Panel
+                    const contentToShow = card.querySelector('.card-body').cloneNode(true);
                     masterPanel.appendChild(contentToShow);
                     
-                    // Show the panel
                     masterPanel.style.display = 'block';
+                } else {
+                    // If clicking the open tab, close it and reveal small text again
+                    grid.classList.remove('is-active'); 
                 }
             });
         });
