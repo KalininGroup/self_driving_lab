@@ -104,12 +104,12 @@ $header-brand-color: #fd7e14; // Orange
     transition: all 0.3s ease;
     position: relative; /* Needed for stacking */
     z-index: 1;
-    background: #ffffff; /* Explicit background so it hides the border underneath */
+    background: #fdfdfd; /* Explicit background so it hides the border underneath */
 }
 
 .expandable-card:hover {
     border-color: #CC6600; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: none; /* Removed the shadow effect */
 }
 
 /* Smooth transition for the text inside the tabs */
@@ -136,7 +136,7 @@ $header-brand-color: #fd7e14; // Orange
 .expandable-card.is-expanded {
     border-color: #1d2a56; 
     border-width: 2px;
-    border-bottom-color: #ffffff; /* Blends into the master panel */
+    border-bottom-color: #fdfdfd; /* Blends into the master panel */
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     z-index: 20; /* Sits ABOVE the master panel to hide the border line */
