@@ -134,24 +134,62 @@ menu_icon: house-door
 <!-- Header -->
 <div class="section-card">
   <h2 class="section-title">Primary Goals</h2>
-  <p style="text-align: center; margin: 0; color: #333;">Accelerating scientific discovery by transitioning from human-speed microscopy to autonomous operations. We harness large language models and machine learning to uncover structure-property relationships and close the loop on material synthesis and characterization.
+  <p style="text-align: center; margin: 0; color: #333;">
+    Our goal is to accelerate scientific discovery by transitioning from human-operated equipment to autonomous instruments that integrate characterization and synthesis into single, seamless workflows. By harnessing reward-driven optimization, agentic workflows, and machine learning, we aim to uncover structure-property relationships, learn the physics of atomic matter, manipulate materials atom-by-atom, and close the materials discovery loop.
   </p>
 </div>
 
 <!-- ML and AE -->
-<h2 class="section-title">ML & AE</h2>
-<div class="section-card">
+<div class="section-card">  
+  <h2 class="section-title">Machine Learning for Automated Experiment</h2>
   <div class="section-grid">
-    <div class="project-card">
-      <p><strong>Agentic</strong></p>
+    <div class="project-card" style="padding: 0;">
+      <a href="agentic-workflow.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+        <h3>Agentic Workflow</h3>
+        <p style="margin-top: 0; text-align: left;">
+          Bridging human intent and laboratory hardware. We utilize LLMs as cognitive agents to parse complex user goals, seamlessly orchestrate machine-specific instruments, and autonomously run experiments to generate targeted scientific discoveries.
+        </p>
+      </a>
     </div>
-    <div class="project-card">
-      <p><strong>Optimization</strong></p>      
+    <div class="project-card" style="padding: 0;">
+      <a href="optimization.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+        <h3>Optimization Workflows</h3>
+        <p style="margin-top: 0; text-align: left;">
+          Developing a robust suite of optimization workflows for instrument tuning and materials discovery. By transitioning to non-myopic, reward-driven strategies, we autonomously explore vast combinatorial and random libraries.
+        </p>
+      </a>
     </div>
-    <div class="project-card">
-      <h3>Hackathon</h3>
-      <p>Upcoming events</p>      
-      <p><strong>Other</strong></p>
+    <div class="project-card" style="padding: 18px 14px; box-sizing: border-box; text-align: left; display: flex; flex-direction: column; height: 100%;">
+      <h3 style="margin-top: 0; margin-bottom: 15px;">News & Events</h3>  
+      <ul style="list-style: none; padding: 0; margin: 0 0 15px 0;">
+        <li style="margin-bottom: 12px;">
+          <a href="https://kaliningroup.github.io/summer_school/" target="_blank" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Summer School on ML for EM 2026
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://kaliningroup.github.io/mic_hackathon_2/" target="_blank" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Microscopy Hackathon 2025
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://kaliningroup.github.io/mic-hackathon/" target="_blank" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Microscopy Hackathon 2024
+          </a>
+        </li>
+        <li style="margin-bottom: 12px;">
+          <a href="https://github.com/orgs/KalininGroup/repositories" target="_blank" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Code Repositories
+          </a>
+        </li>
+      <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
+        <p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #444;">
+          <strong>TBA:</strong> Open Data
+        </p>
+        <p style="margin: 0; font-size: 0.9rem; color: #444;">
+          Future guest lectures, event dates, and group updates will be posted here!
+        </p>
+      </div>
     </div>
   </div>
 </div>
