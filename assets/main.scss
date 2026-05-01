@@ -101,47 +101,81 @@ $header-brand-color: #fd7e14; // Orange
 /* The Cards */
 .expandable-card {
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    position: relative; /* Needed for stacking */
+    z-index: 1;
+    background: #ffffff; /* Explicit background so it hides the border underneath */
 }
 
 .expandable-card:hover {
-    border-color: #CC6600; /* Orange hover */
+    border-color: #CC6600; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Smooth transition for the text inside the tabs */
+.expandable-card .card-body {
+    transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+    max-height: 500px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+/* HIDE the text in the small tabs when ANY tab is open */
+.interactive-grid.is-active .expandable-card .card-body {
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+}
+
+/* Keep the video hidden while inside the unexpanded small card */
+.expandable-card .expanded-content {
+    display: none;
 }
 
 /* The Active Tab */
 .expandable-card.is-expanded {
-    border-color: #1d2a56; /* Dark blue border to connect to the panel */
+    border-color: #1d2a56; 
     border-width: 2px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    background: #fdfdfd; 
-}
-
-/* Keep the video content hidden while it is inside the small card */
-.expandable-card .expanded-content {
-    display: none;
+    border-bottom-color: #ffffff; /* Blends into the master panel */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 20; /* Sits ABOVE the master panel to hide the border line */
 }
 
 /* =========================================
    THE MASTER PANEL (Appears below the row)
    ========================================= */
 .master-expanded-panel {
-    grid-column: 1 / -1; /* Forces the panel to span all columns at the bottom */
+    grid-column: 1 / -1; 
     background: #ffffff;
     border: 2px solid #1d2a56;
     border-radius: 14px;
     padding: 30px;
-    margin-top: 15px;
+    margin-top: -2px; /* Pulls the panel up so the active tab can overlap it */
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     animation: slideDown 0.4s ease;
+    
+    /* THE FIX FOR XRAY OVERLAP */
+    position: relative; 
+    z-index: 10; 
 }
 
-/* Style the content once it is injected into the master panel */
+/* Style the content once injected into the master panel */
+.master-expanded-panel .card-body {
+    display: block;
+    max-height: none; /* Overrides the hidden state from above */
+    opacity: 1;
+    overflow: visible;
+}
+
 .master-expanded-panel .expanded-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e8ecf3;
 }
 
 @keyframes slideDown {
