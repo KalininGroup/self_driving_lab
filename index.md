@@ -139,7 +139,9 @@ menu_icon: house-door
   </p>
 </div>
 
-<!-- ML and AE -->
+
+<!-- ML for AE -->
+
 <div class="section-card">  
   <h2 class="section-title">Machine Learning for Automated Experiment</h2>
   <div class="section-grid">
@@ -196,6 +198,7 @@ menu_icon: house-door
 
 
 <!-- Labs -->
+
 <div class="section-card">
   <h2 class="section-title">Automated High Throughput & Combinatorial Synthesis</h2>
   
@@ -227,106 +230,118 @@ menu_icon: house-door
   </div>
 </div>
 
+
 <!-- Workflows -->
-<h2 class="section-title" style="padding-top: 40px;">Techniques & Workflows</h2>
 
-<div class="projects-grid interactive-grid">
+<div class="section-card">
+  <h2 class="section-title" style="padding-top: 40px;">Techniques & Workflows</h2>
   
-  <div class="project-card expandable-card">
-    <div class="card-header">
-      <h3>AE SPM</h3>
-    </div>
-    <div class="card-body">
-      <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>      
-      <div class="expanded-content">
-        <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allow="autoplay" allowfullscreen></iframe>
-        <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" class="btn" style="margin-top: 15px;">Read More</a>
+  <div class="projects-grid interactive-grid">
+    <div class="project-card expandable-card">
+      <div class="card-header">
+        <!-- AESPM -->
+        <h3>AE SPM</h3>
+      </div>
+      <div class="card-body">
+        <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
+        <div class="expanded-content">
+          <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allow="autoplay" allowfullscreen></iframe>
+          <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" class="btn" style="margin-top: 15px;">Read More</a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="project-card expandable-card">
-    <div class="card-header">
-      <h3>AE STEM</h3>
-    </div>
-    <div class="card-body">
-      <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>      
-      <div class="expanded-content">
-        <iframe class="embedded-video" src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview" allow="autoplay" allowfullscreen></iframe>
-        <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" class="btn" style="margin-top: 15px;">Read More</a>
+    <!-- AESTEM -->
+    <div class="project-card expandable-card">
+      <div class="card-header">
+        <h3>AE STEM</h3>
+      </div>
+      <div class="card-body">
+        <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
+        <div class="expanded-content">
+          <iframe class="embedded-video" src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview" allow="autoplay" allowfullscreen></iframe>
+          <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" class="btn" style="margin-top: 15px;">Read More</a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="project-card expandable-card">
-    <div class="card-header">
-      <h3>Fabrication / Synthesis</h3>
-    </div>
-    <div class="card-body">
-      <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
-        "What I cannot make, I cannot understand."
-        <span style="display: block; text-align: right; font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600; margin-top: 4px;">— Richard Feynman</span>
-      </p>
-      <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>      
-      <div class="expanded-content">
-        <video width="100%" controls muted loop>
-          <source src="assets/videos/fab-demo.mp4" type="video/mp4">
-        </video>
-        <a href="https://ae-spm.utk.edu/atomic-fabrication/" class="btn" style="margin-top: 15px;">Read More</a>
+    <!--  -->
+    <div class="project-card expandable-card">
+      <div class="card-header">
+        <h3>Fabrication / Synthesis</h3>
+      </div>
+      <div class="card-body">
+        <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
+          "What I cannot make, I cannot understand."
+          <span style="display: block; text-align: right; font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600; margin-top: 4px;">— Richard Feynman</span>
+        </p>
+        <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
+        <div class="expanded-content">
+          <video width="100%" controls muted loop>
+            <source src="assets/videos/fab-demo.mp4" type="video/mp4">
+          </video>
+          <a href="https://ae-spm.utk.edu/atomic-fabrication/" class="btn" style="margin-top: 15px;">Read More</a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="project-card expandable-card template-card">
-    <div class="card-header">
-      <h3>Xray</h3>
-    </div>
-    <div class="card-body">
-      <p style="margin-top: 0;"><em>Currently in development.</em></p>
-      <div class="expanded-content">
-        <p>Future video and content will go here.</p>
+    <!-- XRAY -->
+    <div class="project-card expandable-card template-card">
+      <div class="card-header">
+        <h3>Xray</h3>
+      </div>
+      <div class="card-body">
+        <p style="margin-top: 0;"><em>Currently in development.</em></p>
+        <div class="expanded-content">
+          <p>Future video and content will go here.</p>
+        </div>
       </div>
     </div>
+    
   </div>
-
 </div>
 
+
+<!-- AESPM: https://ae-spm.utk.edu/automated-scanning-probe-microscopy/ -->
+<!-- AESTEM: https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/ - but better link to a separate website -->
+<!-- -->
 
 <!-- <a href="#" class="utk-float-btn">Contact Lab</a> -->
 
 
+<!-- 2. JavaScript - The "Tab" Logic -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const grids = document.querySelectorAll('.interactive-grid');
 
     grids.forEach(grid => {
         const cards = grid.querySelectorAll('.expandable-card');
+        
+        // 1. Create a single Master Panel at the bottom of the grid
+        const masterPanel = document.createElement('div');
+        masterPanel.className = 'master-expanded-panel';
+        masterPanel.style.display = 'none';
+        grid.appendChild(masterPanel);
 
         cards.forEach(card => {
             card.addEventListener('click', (e) => {
-                // If they click a video controls or the "Read More" button, don't collapse the card
-                if(e.target.tagName === 'VIDEO' || e.target.tagName === 'A') return;
+                // Ignore clicks if they hit a link or video inside the card
+                if(e.target.tagName === 'VIDEO' || e.target.tagName === 'A' || e.target.tagName === 'IFRAME') return;
 
                 const isCurrentlyExpanded = card.classList.contains('is-expanded');
 
-                // Step 1: Close all cards and pause their videos
-                cards.forEach(c => {
-                    c.classList.remove('is-expanded');
-                    const vid = c.querySelector('video');
-                    if(vid) vid.pause(); // Stop video if user clicks away
-                });
+                // 2. Reset all cards and clear the master panel
+                cards.forEach(c => c.classList.remove('is-expanded'));
+                masterPanel.style.display = 'none';
+                masterPanel.innerHTML = ''; 
 
-                // Step 2: If the clicked card wasn't already open, open it!
+                // 3. If opening a new tab, copy its content to the Master Panel
                 if (!isCurrentlyExpanded) {
                     card.classList.add('is-expanded');
-                    grid.classList.add('is-active'); // Tells the grid to collapse the others
                     
-                    // Optional: Auto-play the video when opened
-                    const vid = card.querySelector('video');
-                    if(vid) vid.play(); 
-                } else {
-                    // If they clicked the already-open card, reset the grid back to normal
-                    grid.classList.remove('is-active');
+                    // Clone the hidden content and put it in the master panel
+                    const contentToShow = card.querySelector('.expanded-content').cloneNode(true);
+                    masterPanel.appendChild(contentToShow);
+                    
+                    // Show the panel
+                    masterPanel.style.display = 'block';
                 }
             });
         });
