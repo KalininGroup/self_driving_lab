@@ -182,7 +182,7 @@ menu_icon: house-door
             <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Code Repositories
           </a>
         </li>
-      <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
+      </ul> <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
         <p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #444;">
           <strong>TBA:</strong> Open Data
         </p>
