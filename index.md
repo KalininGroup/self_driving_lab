@@ -246,7 +246,7 @@ menu_icon: house-door
         <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
         <div class="expanded-content">
           <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allow="autoplay" allowfullscreen></iframe>
-          <a href="/self_driving_lab/aespm/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="https://kaliningroup.github.io/self_driving_lab/aespm/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
@@ -259,7 +259,7 @@ menu_icon: house-door
         <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
         <div class="expanded-content">
           <iframe class="embedded-video" src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview" allow="autoplay" allowfullscreen></iframe>
-          <a href="/self_driving_lab/aestem/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="https://kaliningroup.github.io/self_driving_lab/aestem/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
@@ -280,7 +280,7 @@ menu_icon: house-door
           <video width="100%" controls muted loop>
             <source src="assets/videos/fab-demo.mp4" type="video/mp4">
           </video>
-          <a href="/self_driving_lab/nanoindentation/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="https://kaliningroup.github.io/self_driving_lab/nanoindentation/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
