@@ -17,18 +17,18 @@ permalink: /repositories/
         <a href="https://github.com/RichardLiuCoding/aespm" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
           <i class="bi bi-github" style="color: #CC6600;"></i> aespm -- "A"utomated "E"xperiment on "SPM"
         </a>
-      </li>
+      </li>      
+    </ul>
+  </div>
+
+  <div class="project-card" style="padding: 25px; box-sizing: border-box; background: transparent;">
+    <h3 style="margin-top: 0; margin-bottom: 20px; border-bottom: 1px solid #e8ecf3; padding-bottom: 10px;">AE STEM</h3>    
+    <ul style="list-style: none; padding: 0; margin: 0;">
       <li style="margin-bottom: 15px;">
         <a href="https://github.com/pycroscopy" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
           <i class="bi bi-github" style="color: #CC6600;"></i> pycroscopy
         </a>
       </li>
-    </ul>
-  </div>
-
-  <div class="project-card" style="padding: 25px; box-sizing: border-box; background: transparent;">
-    <h3 style="margin-top: 0; margin-bottom: 20px; border-bottom: 1px solid #e8ecf3; padding-bottom: 10px;">AE STEM Code Repositories</h3>    
-    <ul style="list-style: none; padding: 0; margin: 0;">
       <li style="margin-bottom: 15px;">
         <a href="https://pycroscopy.github.io/asyncroscopy/" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
           <i class="bi bi-github" style="color: #CC6600;"></i> Asyncroscopy Documentation
