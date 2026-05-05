@@ -246,7 +246,7 @@ menu_icon: house-door
         <p>Pioneering intelligent SPM workflows to unravel complex material behaviors, accelerating the pace of discovery and enabling transformative advances across diverse fields.</p>
         <div class="expanded-content">
           <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allow="autoplay" allowfullscreen></iframe>
-          <a href="https://ae-spm.utk.edu/automated-scanning-probe-microscopy/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="/aespm/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
@@ -259,26 +259,28 @@ menu_icon: house-door
         <p>Developing cutting-edge automated STEM methodologies that leverage machine learning algorithms and autonomous agents for real-time decision-making and adaptive experimentation.</p>
         <div class="expanded-content">
           <iframe class="embedded-video" src="https://drive.google.com/file/d/1EqL8SD_EXVxVRKlPKT2AEp1aTShMjOgj/preview" allow="autoplay" allowfullscreen></iframe>
-          <a href="https://ae-spm.utk.edu/automated-scanning-transmission-electron-microscope/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="/aestem/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
-    <!--  -->
+    <!-- AE nanoindentation -->
     <div class="project-card expandable-card">
       <div class="card-header">
-        <h3>Fabrication / Synthesis</h3>
+        <h3>AE Nanoindentation</h3>
       </div>
       <div class="card-body">
+        <!--
         <p style="font-style: italic; color: #555; font-size: 0.9rem; margin: 10px 0 6px 0;">
           "What I cannot make, I cannot understand."
           <span style="display: block; text-align: right; font-size: 0.8rem; font-style: normal; color: #CC6600; font-weight: 600; margin-top: 4px;">— Richard Feynman</span>
         </p>
-        <p style="margin-top: 0;">Leveraging ML to move from passive observation to active, high-throughput materials discovery and autonomous atomic-scale manufacturing.</p>
+        -->
+        <p style="margin-top: 0;">Integrating machine learning and adaptive alignment strategies to automate nanoindentation, enabling both targeted microstructural analysis and high-throughput screening of complex combinatorial libraries.</p>
         <div class="expanded-content">
           <video width="100%" controls muted loop>
             <source src="assets/videos/fab-demo.mp4" type="video/mp4">
           </video>
-          <a href="https://ae-spm.utk.edu/atomic-fabrication/" class="btn" style="margin-top: 15px;">Read More</a>
+          <a href="/nanoindentation/" class="btn" style="margin-top: 15px;">Read More</a>
         </div>
       </div>
     </div>
