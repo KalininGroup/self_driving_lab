@@ -180,8 +180,8 @@ menu_icon: house-door
           </a>
         </li>
         <li style="margin-bottom: 12px;">
-          <a href="https://github.com/orgs/KalininGroup/repositories" target="_blank" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-            <i class="bi bi-box-arrow-up-right" style="color: #CC6600;"></i> Code Repositories
+          <a href="https://kaliningroup.github.io/self_driving_lab/repositories/" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-github" style="color: #CC6600;"></i> Code Repositories
           </a>
         </li>
       </ul> <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
