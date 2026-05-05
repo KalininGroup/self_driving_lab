@@ -20,6 +20,8 @@ theme: minima
 # and registration_status flags below
 header_pages:
   - index.md
+  - agentic.md
+  - optimization.md
   - aespm.md
   - aestem.md
   - nanoindentation.md
