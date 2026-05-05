@@ -139,7 +139,7 @@ $header-brand-color: #fd7e14; // Orange
     border-bottom-color: #fdfdfd; /* Blends into the master panel */
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    z-index: 10; /* Sits ABOVE the master panel to hide the border line */
+    z-index: 12; /* Sits ABOVE the master panel to hide the border line */
 }
 
 /* =========================================
