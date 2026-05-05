@@ -20,6 +20,9 @@ theme: minima
 # and registration_status flags below
 header_pages:
   - index.md
+  - aespm.md
+  - aestem.md
+  - nanoindentation.md
   - about.md
 
 # Event status
