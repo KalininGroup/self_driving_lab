@@ -11,20 +11,21 @@ permalink: /aespm/
 
 <div class="project-card" style="padding: 30px; margin-bottom: 40px; background: transparent;">
   
-  <h3 style="margin-top: 0; color: #1d2a56;">MULTI OBJECTIVE BAYESIAN OPTIMIZATION - Morphology study</h3>
+  <h3 style="margin-top: 0; color: #1d2a56; text-transform: uppercase;">MULTI OBJECTIVE BAYESIAN OPTIMIZATION - Morphology study</h3>
   
   <p style="margin-bottom: 25px; color: #333;">
     Automated morphology study.
   </p>
   
-  <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allowfullscreen></iframe>
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allowfullscreen style="display: block; margin: 0 auto 20px auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
   
-  <p style="margin-top: 20px; margin-bottom: 0; font-size: 0.95rem; color: #555;">
+  <p style="margin-top: 0; margin-bottom: 0; font-size: 0.95rem; color: #555;">
     <strong style="color: #CC6600;">Contributors:</strong> Kamyar Barakati, Richard Liu
-    
   </p>
 
 </div>
+
+
 
 <div class="project-card" style="padding: 30px; margin-bottom: 40px; background: transparent;">
   
