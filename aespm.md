@@ -9,21 +9,24 @@ permalink: /aespm/
   A showcase of our machine learning-guided autonomous scanning probe microscopy workflows.
 </p>
 
-<div class="project-card" style="padding: 30px; margin-bottom: 40px; background: transparent;">
+<div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
-  <h3 style="margin-top: 0; color: #1d2a56; text-transform: uppercase;">MULTI OBJECTIVE BAYESIAN OPTIMIZATION - Morphology study</h3>
+  <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Automated morphology study</h3>
+    <p style="margin: 0; font-size: 0.95rem; color: #555;">
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Kamyar Barakati, Richard Liu
+    </p>
+  </div>
   
-  <p style="margin-bottom: 25px; color: #333;">
-    Automated morphology study.
-  </p>
+  <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
+    Automated morphology study using multy objective Bayesian optimization. 
+    </p>
   
-  <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allowfullscreen style="display: block; margin: 0 auto 20px auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
-  
-  <p style="margin-top: 0; margin-bottom: 0; font-size: 0.95rem; color: #555;">
-    <strong style="color: #CC6600;">Contributors:</strong> Kamyar Barakati, Richard Liu
-  </p>
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
 
 </div>
+
+
 
 
 
