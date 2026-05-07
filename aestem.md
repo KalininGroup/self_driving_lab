@@ -22,7 +22,7 @@ permalink: /aestem/
     Automated Aberration Correction. Full correction up to 5<sup>th</sup> order. Automated, but with human-defined rules.
   </p>
   
-  <iframe class="embedded-video-vertical" src="https://drive.google.com/file/d/1QoqAZ-Q7WbmRQkUArwqnQYCllF7hCwj6/preview" allowfullscreen</iframe>
+  <iframe class="embedded-video-vertical" src="https://drive.google.com/file/d/1QoqAZ-Q7WbmRQkUArwqnQYCllF7hCwj6/preview" allowfullscreen></iframe>
 
 </div>
 
