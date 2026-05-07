@@ -19,7 +19,7 @@ permalink: /aespm/
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    Automated morphology study using Multy Objective Bayesian Optimization (MOBO). 
+    Automated morphology study using Multi Objective Bayesian Optimization (MOBO). 
     </p>
   
   <iframe class="embedded-video" src="https://drive.google.com/file/d/1LtUZQxNX9dVPzRI5lLmJ_cjI3JpIKoKX/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
@@ -53,7 +53,7 @@ permalink: /aespm/
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    Automated ferroelectric domain switching using Multy Objective Bayesian Optimization (MOBO).
+    Automated ferroelectric domain switching using Multi Objective Bayesian Optimization (MOBO).
     </p>
   
   <iframe class="embedded-video" src="https://drive.google.com/file/d/1RlgCpXQ8gJ2fNmkM5A8dZW6G2-mophgO/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
