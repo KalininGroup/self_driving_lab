@@ -12,9 +12,9 @@ permalink: /aestem/
 <div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Aberration correction</h3>
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Aberration Correction with Human Heuristics</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Austin Houston
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Austin Houston, Gerd Duscher, Utkarsh Pratiush
     </p>
   </div>
   
@@ -29,9 +29,9 @@ permalink: /aestem/
 <div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Aberration correction</h3>
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">BO based Aberration Correction</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush, Gerd Duscher
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush, Austin Houston, Gerd Duscher
     </p>
   </div>
   
@@ -48,7 +48,7 @@ permalink: /aestem/
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
     <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Particle-wise EDX–EELS-Diffration</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Austin Houston
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush, Austin Houston, Gerd Duscher
     </p>
   </div>
   
@@ -99,7 +99,7 @@ permalink: /aestem/
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
     <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Reward-driven STEM</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush, Austin Houston, Kamyar Barakati
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Kamyar Barakati, Utkarsh Pratiush, Austin Houston, Gerd Duscher
     </p>
   </div>
   
