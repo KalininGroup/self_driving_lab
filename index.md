@@ -2,7 +2,7 @@
 layout: page
 title: Self-Driving Lab
 menu_title: Home
-menu_icon: house-door
+menu_icon: 
 ---
 
 <!-- Header -->
