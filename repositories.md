@@ -11,8 +11,14 @@ permalink: /repositories/
 <div class="project-card" style="padding: 30px; box-sizing: border-box; background: transparent; max-width: 800px; margin: 0 auto;">
   
   <ul style="list-style: none; padding: 0; margin: 0;">
+      <!-- DTM -->
     <li style="margin-bottom: 20px;">
+      <a href="https://github.com/pycroscopy/DTMicroscope" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+        <i class="bi bi-github" style="color: #CC6600;"></i> Digital Twin Microscope
+      </a>
+    </li>
       <!-- aespm -->
+    <li style="margin-bottom: 20px;">
       <a href="https://github.com/RichardLiuCoding/aespm" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
         <i class="bi bi-github" style="color: #CC6600;"></i> aespm -- "A"utomated "E"xperiment on "SPM"
       </a>
@@ -47,16 +53,22 @@ permalink: /repositories/
         </li>
       </ul>
     </li>
+      <!-- AE nanoindentation -->
+    <li style="margin-bottom: 20px;">
+      <a href="https://github.com/VivekAChawla/Automating-Nanoindentation" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+        <i class="bi bi-github" style="color: #CC6600;"></i> Automated Nanoindentation
+      </a>
+    </li>
+      <!-- combi nav -->
+    <li style="margin-bottom: 20px;">
+      <a href="https://github.com/VivekAChawla/AE-NI-Gradient-Library-Workflow" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+        <i class="bi bi-github" style="color: #CC6600;"></i> Thin film combinatorial navigation
+      </a>
+    </li>
       <!-- active learning -->
     <li style="margin-bottom: 20px;">
       <a href="https://github.com/utkarshp1161/Active-learning-in-microscopy" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
         <i class="bi bi-github" style="color: #CC6600;"></i> Active Learning in Microscopy
-      </a>
-    </li>
-      <!-- DTM -->
-    <li style="margin-bottom: 20px;">
-      <a href="https://github.com/pycroscopy/DTMicroscope" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
-        <i class="bi bi-github" style="color: #CC6600;"></i> Digital Twin Microscope
       </a>
     </li>
 
