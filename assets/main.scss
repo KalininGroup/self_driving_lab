@@ -329,3 +329,63 @@ $header-brand-color: #fd7e14; // Orange
     from { opacity: 0; transform: translateY(-15px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+
+/* ==========================================================================
+   HEADER DROPDOWN MENU
+   ========================================================================== */
+.nav-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(10, 14, 28, 0.95); /* Matches your glacier header */
+  backdrop-filter: blur(8px);
+  min-width: 210px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  z-index: 2000;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  top: 65px; 
+  left: 0;
+  padding: 10px 0;
+}
+
+/* Force the links inside the dropdown to behave */
+.dropdown-content a {
+  color: #c3c3c3 !important;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.4 !important; /* Overrides the massive line-height from the main header */
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+  color: #CC6600 !important;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* The magic hover effect */
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Keeps the dropdown working reasonably on mobile phones */
+@media (max-width: 600px) {
+  .nav-dropdown {
+    display: block;
+  }
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+    padding-left: 15px;
+  }
+}
