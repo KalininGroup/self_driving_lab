@@ -16,7 +16,7 @@
 
       <div class="trigger">
         <a class="page-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">
-          <i class="bi bi-house-door" style="color: #CC6600;"></i> <span>Home</span>
+          <span>Home</span>
         </a>
 
         <a class="page-link {% if page.url == '/agentic-workflow/' %}active{% endif %}" href="{{ '/agentic-workflow/' | relative_url }}">
@@ -28,19 +28,19 @@
         </a>
         
         <div class="nav-dropdown">
-          <a class="page-link dropdown-toggle {% if page.url == '/ae-spm/' or page.url == '/ae-stem/' or page.url == '/nanoindentation/' %}active{% endif %}" style="cursor: pointer;">
+          <a class="page-link dropdown-toggle {% if page.url == '/aespm/' or page.url == '/aestem/' or page.url == '/nanoindentation/' %}active{% endif %}" style="cursor: pointer;">
             <span>Autonomous Instruments</span> <i class="bi bi-chevron-down" style="font-size: 0.7rem; margin-left: 3px;"></i>
           </a>
           
           <div class="dropdown-content">
-            <a href="{{ '/ae-spm/' | relative_url }}" class="{% if page.url == '/ae-spm/' %}active-sub{% endif %}">AE SPM</a>
-            <a href="{{ '/ae-stem/' | relative_url }}" class="{% if page.url == '/ae-stem/' %}active-sub{% endif %}">AE STEM</a>
+            <a href="{{ '/aespm/' | relative_url }}" class="{% if page.url == '/aespm/' %}active-sub{% endif %}">AE SPM</a>
+            <a href="{{ '/aestem/' | relative_url }}" class="{% if page.url == '/aestem/' %}active-sub{% endif %}">AE STEM</a>
             <a href="{{ '/nanoindentation/' | relative_url }}" class="{% if page.url == '/nanoindentation/' %}active-sub{% endif %}">AE Nanoindentation</a>
           </div>
         </div>
 
         <a class="page-link {% if page.url == '/about/' %}active{% endif %}" href="{{ '/about/' | relative_url }}">
-          <i class="bi bi-globe" style="color: #CC6600;"></i> <span>About</span>
+          <span>About</span>
         </a>
       </div>
     </nav>
