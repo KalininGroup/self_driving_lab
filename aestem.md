@@ -135,21 +135,3 @@ permalink: /aestem/
 
 </div>
 
-
-<div class="section-card" style="margin-bottom: 40px; text-align: left;">
-  
-  <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">LLM agent controlled STEM</h3>
-    <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Dominick Pelaia, Levi Dunn, Austin Houston, Utkarsh Pratiush, Gerd Duscher, Sergei Kalinin
-    </p>
-  </div>
-  
-  <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    We built a custom LLM agent called "Angstrom" to autonomously operate the STEM. It is able to write its own code to move the stage, acquire HAADF images and EDS spectra, and perform other functions.
-
-  </p>
-  
-  <iframe class="embedded-video" src="https://liveutk-my.sharepoint.com/personal/dpelaia_utk_edu/_layouts/15/embed.aspx?UniqueId=6b2849fc-158e-4f90-b0d5-b44ae536545d&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" allowfullscreen title="LLM_first_time.mp4" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
-
-</div>
