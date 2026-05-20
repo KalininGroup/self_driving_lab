@@ -13,7 +13,7 @@ permalink: /nanoindentation/
 <div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; text-transform: uppercase;">The automated indentation workflow</h3>
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">The automated indentation workflow</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
       <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Vivek Chawla, Stephen Puplampu
     </p>
