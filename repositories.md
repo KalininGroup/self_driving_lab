@@ -62,7 +62,7 @@ permalink: /repositories/
       <!-- combi nav -->
     <li style="margin-bottom: 20px;">
       <a href="https://github.com/VivekAChawla/AE-NI-Gradient-Library-Workflow" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
-        <i class="bi bi-github" style="color: #CC6600;"></i> Thin film combinatorial navigation
+        <i class="bi bi-github" style="color: #CC6600;"></i> Thin Film Combinatorial Navigation
       </a>
     </li>
       <!-- active learning -->
