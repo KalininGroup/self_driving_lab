@@ -20,7 +20,7 @@ menu_icon:
   <h2 class="section-title">Machine Learning for Automated Experiment</h2>
   <div class="section-grid">
     <div class="project-card" style="padding: 0;">
-      <a href="agentic-workflow.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+      <a href="https://kaliningroup.github.io/self_driving_lab/agentic-workflow/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
         <h3>Agentic Workflow</h3>
         <p style="margin-top: 0; text-align: left;">
           Bridging human intent and laboratory hardware. We utilize LLMs as cognitive agents to parse complex user goals, seamlessly orchestrate machine-specific instruments, and autonomously run experiments to generate targeted scientific discoveries.
@@ -28,7 +28,7 @@ menu_icon:
       </a>
     </div>
     <div class="project-card" style="padding: 0;">
-      <a href="optimization.html" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
+      <a href="https://kaliningroup.github.io/self_driving_lab/optimization/" style="display: block; padding: 18px 14px; text-decoration: none; color: inherit; height: 100%; box-sizing: border-box;">
         <h3>Optimization Workflows</h3>
         <p style="margin-top: 0; text-align: left;">
           Developing a robust suite of optimization workflows for instrument tuning and materials discovery. By transitioning to non-myopic, reward-driven strategies, we autonomously explore vast combinatorial and random libraries.
