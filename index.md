@@ -10,7 +10,7 @@ menu_icon:
   <h2 class="section-title">Primary Goals</h2>
   
   <p style="text-align: justify; margin: 0 auto 15px auto; color: #444; font-size: 1.05rem; line-height: 1.7; max-width: 95%;">
-   Our goal is to accelerate scientific discovery by transitioning from human-operated equipment to fully autonomous, closed-loop systems. We achieve this by reframing complex materials research into reward-driven optimization problems—shifting from traditional, myopic measurements to non-myopic active learning that intelligently targets the most valuable data.
+   Our goal is to accelerate scientific discovery by transitioning from human-operated equipment to fully autonomous, closed-loop systems. We achieve this by reframing complex materials research into reward-driven optimization problems – shifting from traditional, myopic measurements to non-myopic active learning that intelligently targets the most valuable data.
   </p>
   
   <p style="text-align: justify; margin: 0 auto; color: #444; font-size: 1.05rem; line-height: 1.7; max-width: 95%;">
