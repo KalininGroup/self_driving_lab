@@ -48,42 +48,71 @@ permalink: /agentic-workflow/
 </div>
 
 
-<!--
+<!-- fabrication -->
+<div style="max-width: 850px; margin: 60px auto 40px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
+  
+  <h2 class="section-title" style="margin-top: 10px; text-align: center;">Small Science Agentic Models</h2>
+  
+  <p style="margin-bottom: 20px;">
+    We have developed <strong>Small Science Agentic Models</strong>. The core idea is that rather than building one large, generalist AI agent that tries to do everything—or relying solely on a single optimization algorithm like Bayesian optimization—we distribute intelligence across a set of narrow, physically grounded agents, each responsible for one well-defined stage of the experimental workflow:
+  </p>
+  
+  <ul style="list-style: none; padding: 0; margin: 0; font-size: 1rem;">
+    <li style="margin-bottom: 12px;"><i class="bi bi-cpu-fill" style="color: #CC6600; margin-right: 8px;"></i> <strong>1. Hypothesis Agent:</strong> The scientific reasoning layer.</li>
+    <li style="margin-bottom: 12px;"><i class="bi bi-cpu-fill" style="color: #CC6600; margin-right: 8px;"></i> <strong>2. Protocol Agent:</strong> The translation layer.</li>
+    <li style="margin-bottom: 12px;"><i class="bi bi-cpu-fill" style="color: #CC6600; margin-right: 8px;"></i> <strong>3. Characterization Agent:</strong> The state-generation layer. Critically, this agent does not treat measurements as endpoints.</li>
+    <li style="margin-bottom: 12px;"><i class="bi bi-cpu-fill" style="color: #CC6600; margin-right: 8px;"></i> <strong>4. ML/Decision Agent:</strong> The optimization layer.</li>
+    <li style="margin-bottom: 12px;"><i class="bi bi-cpu-fill" style="color: #CC6600; margin-right: 8px;"></i> <strong>5. Orchestrator Agent:</strong> The connective tissue.</li>
+  </ul>
+</div>
+
 <div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; text-transform: uppercase;">Agentic Control in SPM</h3>
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; ">The Hypothesis Agent</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> [Name]
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Sheryl Sanchez, Ariel Thompson
     </p>
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    Description of the SPM agentic workflow goes here.
+    A demonstration of the scientific reasoning layer, which leverages Socratic reasoning to clarify research questions, surface hidden assumptions, and generate testable hypotheses for experimental design.
   </p>
   
-  <div style="width: 100%; aspect-ratio: 16/9; background: #e8ecf3; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #888;">
-    [SPM Video Placeholder]
-  </div>
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1uIqvESpNpMawP3f0V80TdUTBNA1YbakE/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
 
 </div>
 
 <div class="section-card" style="margin-bottom: 40px; text-align: left;">
   
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
-    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; text-transform: uppercase;">Automated Combinatorial Fabrication</h3>
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; text-transform: uppercase;">The Protocol Agent</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> [Name]
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Sheryl Sanchez, Ariel Thompson
     </p>
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    Description of the fabrication agentic workflow goes here.
+    A showcase of the translation layer in action, autonomously interpreting high-level hypotheses to formulate executable laboratory workflows and precise automation protocols for robotic liquid handling.
   </p>
   
-  <div style="width: 100%; aspect-ratio: 16/9; background: #e8ecf3; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #888;">
-    [Fabrication Video Placeholder]
-  </div>
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1zrcIbK3zKTSGBC1kgdFilDsmt5zscE3X/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
 
 </div>
--->
+
+<div class="section-card" style="margin-bottom: 40px; text-align: left;">
+  
+  <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56; text-transform: uppercase;">Automated Hardware Orchestration</h3>
+    <p style="margin: 0; font-size: 0.95rem; color: #555;">
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Sheryl Sanchez, Ariel Thompson
+    </p>
+  </div>
+  
+  <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
+    The physical execution layer: automated robotic hardware orchestrated by the agentic framework, seamlessly carrying out high-throughput fabrication and characterization of combinatorial material libraries.
+  </p>
+  
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1fLpvVrWGGuzx7KU1kdiLWKpJARpJmRUQ/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
+
+</div>
