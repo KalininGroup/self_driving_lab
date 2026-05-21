@@ -5,7 +5,7 @@ menu_title: Optimization Workflows
 permalink: /optimization/
 ---
 
-<div style="max-width: 850px; margin: 0 auto 60px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
+<div style="max-width: 1050px; margin: 0 auto 60px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
   
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Reframing Research as Optimization</h2>
   
