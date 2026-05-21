@@ -4,7 +4,7 @@ menu_title: About
 menu_icon: 
 ---
 
-<div style="max-width: 850px; margin: 0 auto; line-height: 1.8; color: #333; font-size: 1.05rem;">
+<div style="max-width: 1050px; margin: 0 auto; line-height: 1.8; color: #333; font-size: 1.05rem;">
     <h2 class="section-title" style="margin-top: 0px;">
         The Paradigm Shift in Materials Science
     </h2>
