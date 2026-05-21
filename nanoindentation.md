@@ -23,6 +23,6 @@ permalink: /nanoindentation/
     Demonstration of a nanoindentation workflow, autonomously exploring the material surface to generate a high-resolution predictive modulus map.
   </p>
   
-  <iframe class="embedded-video" src="https://liveutk-my.sharepoint.com/personal/vchawla_vols_utk_edu/_layouts/15/embed.aspx?UniqueId=067e736b-4b10-4f20-98dc-8ea587a4e6dd&embed=%7B%22hvm%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" allowfullscreen title="AE Nanoindentation.mov" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
+  <iframe class="embedded-video" src="https://liveutk-my.sharepoint.com/:v:/g/personal/vchawla_vols_utk_edu/IQBrc34GEEsgT5jcjqWHpObdAbuEkyveJREdlAxG6XBFvT0?action=embedview" allowfullscreen title="AE Nanoindentation.mov" style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
 
 </div>
