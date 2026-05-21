@@ -6,10 +6,15 @@ menu_icon:
 ---
 
 <!-- Header -->
-<div class="section-card">
+<div class="section-card" style="margin-top: 20px;">
   <h2 class="section-title">Primary Goals</h2>
-  <p style="text-align: center; margin: 0; color: #333;">
-    Our goal is to accelerate scientific discovery by transitioning from human-operated equipment to autonomous instruments that integrate characterization and synthesis into single, seamless workflows. By harnessing reward-driven optimization, agentic workflows, and machine learning, we aim to uncover structure-property relationships, learn the physics of atomic matter, manipulate materials atom-by-atom, and close the materials discovery loop.
+  
+  <p style="text-align: justify; margin: 0 auto 15px auto; color: #444; font-size: 1.05rem; line-height: 1.7; max-width: 95%;">
+   Our goal is to accelerate scientific discovery by transitioning from human-operated equipment to fully autonomous, closed-loop systems. We achieve this by reframing complex materials research into reward-driven optimization problems—shifting from traditional, myopic measurements to non-myopic active learning that intelligently targets the most valuable data.
+  </p>
+  
+  <p style="text-align: justify; margin: 0 auto; color: #444; font-size: 1.05rem; line-height: 1.7; max-width: 95%;">
+    To orchestrate this, we pioneer <strong>Agentic Models</strong>: distributing intelligence across specialized LLM agents that autonomously handle hypothesis generation, protocol translation, and real-time hardware execution. By seamlessly unifying high-throughput synthesis with advanced characterization (SPM, STEM, and automated nanoindentation), we aim to uncover hidden structure-property relationships, manipulate matter atom-by-atom, and permanently close the materials discovery loop.
   </p>
 </div>
 
