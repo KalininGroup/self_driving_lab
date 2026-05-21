@@ -20,7 +20,7 @@ permalink: /nanoindentation/
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    Demonstration of a nanoindentation workflow, autonomously exploring the material surface to generate a high-resolution predictive modulus map. 
+    Demonstration of a nanoindentation workflow, autonomously exploring the segmented features to generate a high-resolution predictive modulus map. 
   </p>
   
   <iframe class="embedded-video" src="https://drive.google.com/file/d/1-lvD6Bi7XD1l0g0u-j46-0MB7uas4uUO/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
