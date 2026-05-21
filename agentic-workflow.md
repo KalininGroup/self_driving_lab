@@ -5,7 +5,7 @@ menu_title: Agentic Workflows
 permalink: /agentic-workflow/
 ---
 
-<div style="max-width: 850px; margin: 0 auto 50px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
+<div style="max-width: 1150px; margin: 0 auto 50px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Bridging Human Intent and Hardware</h2>
   <p style="margin: 0;">
     The core of our autonomous framework relies on <strong>Agentic Workflows</strong>—utilizing Large Language Models (LLMs) as cognitive agents to manage complex scientific tasks. Rather than relying on rigid, pre-programmed scripts, we deploy agents capable of parsing high-level user goals, reasoning through experimental parameters, and seamlessly orchestrating machine-specific instruments in real-time. By acting as the "brain" of the laboratory, these agents enable dynamic, closed-loop discovery across scanning probe microscopy, electron microscopy, and combinatorial synthesis.
@@ -49,7 +49,7 @@ permalink: /agentic-workflow/
 
 
 <!-- fabrication -->
-<div style="max-width: 850px; margin: 60px auto 40px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
+<div style="max-width: 1150px; margin: 60px auto 40px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
   
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Small Science Agentic Models</h2>
   
