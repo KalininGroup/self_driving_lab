@@ -48,7 +48,26 @@ permalink: /agentic-workflow/
 </div>
 
 
-<!-- fabrication -->
+<!-- literature discovery agent -->
+<div class="section-card" style="margin-bottom: 40px; margin-top: 20px; text-align: left;">
+  
+  <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
+    <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Literature agent for perovskite materials discovery</h3>
+    <p style="margin: 0; font-size: 0.95rem; color: #555;">
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Jordan Marshall, Mahshid Ahmadi
+    </p>
+  </div>
+  
+  <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
+    We built a literature-mining agent to read perovskite solar-cell papers and extract structured information for machine learning. The agent collects device structure, composition, processing, performance, and stability data so it can be used in our PCE and stability prediction workflow.
+  </p>
+  
+  <iframe class="embedded-video" src="https://drive.google.com/file/d/1eKHsg5cweG7ygNtQ_yNuTjiJING5OHqQ/preview" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);"></iframe>
+
+</div>
+
+
+<!-- fabrication agents -->
 <div style="max-width: 1050px; margin: 60px auto 40px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
   
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Small Science Agentic Models</h2>
