@@ -8,7 +8,7 @@ permalink: /agentic-workflow/
 <div style="max-width: 1050px; margin: 0 auto 50px auto; line-height: 1.8; color: #333; font-size: 1.05rem; text-align: justify;">
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Bridging Human Intent and Hardware</h2>
   <p style="margin: 0;">
-    The core of our autonomous framework relies on <strong>Agentic Workflows</strong>—utilizing Large Language Models (LLMs) as cognitive agents to manage complex scientific tasks. Rather than relying on rigid, pre-programmed scripts, we deploy agents capable of parsing high-level user goals, reasoning through experimental parameters, and seamlessly orchestrating machine-specific instruments in real-time. By acting as the "brain" of the laboratory, these agents enable dynamic, closed-loop discovery across scanning probe microscopy, electron microscopy, and combinatorial synthesis.
+    The core of our autonomous framework relies on <strong>Agentic Workflows</strong> — utilizing Large Language Models (LLMs) as cognitive agents to manage complex scientific tasks. Rather than relying on rigid, pre-programmed scripts, we deploy agents capable of parsing high-level user goals, reasoning through experimental parameters, and seamlessly orchestrating machine-specific instruments in real-time. By acting as the "brain" of the laboratory, these agents enable dynamic, closed-loop discovery across scanning probe microscopy, electron microscopy, and combinatorial synthesis.
   </p>
 </div>
 
@@ -73,7 +73,7 @@ permalink: /agentic-workflow/
   <h2 class="section-title" style="margin-top: 10px; text-align: center;">Small Science Agentic Models</h2>
   
   <p style="margin-bottom: 20px;">
-    We have developed <strong>Small Science Agentic Models</strong>. The core idea is that rather than building one large, generalist AI agent that tries to do everything—or relying solely on a single optimization algorithm like Bayesian optimization—we distribute intelligence across a set of narrow, physically grounded agents, each responsible for one well-defined stage of the experimental workflow:
+    We have developed <strong>Small Science Agentic Models</strong>. The core idea is that rather than building one large, generalist AI agent that tries to do everything — or relying solely on a single optimization algorithm like Bayesian optimization — we distribute intelligence across a set of narrow, physically grounded agents, each responsible for one well-defined stage of the experimental workflow:
   </p>
   
   <ul style="list-style: none; padding: 0; margin: 0; font-size: 1rem;">
