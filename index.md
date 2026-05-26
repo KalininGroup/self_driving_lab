@@ -69,7 +69,7 @@ menu_icon:
             </a>
           </li>
         </ul>
-      </ul> <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
+      <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
         <p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #444;">
           <strong>TBA:</strong> Open Data
         </p>
