@@ -65,7 +65,7 @@ menu_icon:
         </li>
         <li style="margin-bottom: 12px;">
           <a href="{{ '/infrastructure/' | relative_url }}" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
-            <i class="bi bi-database-fill" style="color: #CC6600;"></i> Data & Infrastructure
+            <i class="bi bi-server" style="color: #CC6600;"></i> Data & Infrastructure
             </a>
           </li>
         </ul>
