@@ -19,13 +19,17 @@
           <span>Home</span>
         </a>
 
-        <a class="page-link {% if page.url == '/agentic-workflow/' %}active{% endif %}" href="{{ '/agentic-workflow/' | relative_url }}">
-          <span>Agentic Workflows</span>
-        </a>
-
-        <a class="page-link {% if page.url == '/optimization/' %}active{% endif %}" href="{{ '/optimization/' | relative_url }}">
-          <span>Optimization</span>
-        </a>
+        <div class="nav-dropdown">
+          <a class="page-link dropdown-toggle {% if page.url == '/agentic-workflow/' or page.url == '/optimization/' or page.url == '/infrastructure/' %}active{% endif %}" style="cursor: pointer;">
+            <span>Core Workflows</span> <i class="bi bi-chevron-down" style="font-size: 0.7rem; margin-left: 3px;"></i>
+          </a>
+          
+          <div class="dropdown-content">
+            <a href="{{ '/agentic-workflow/' | relative_url }}" class="{% if page.url == '/agentic-workflow/' %}active-sub{% endif %}">Agentic Workflows</a>
+            <a href="{{ '/optimization/' | relative_url }}" class="{% if page.url == '/optimization/' %}active-sub{% endif %}">Optimization</a>
+            <a href="{{ '/infrastructure/' | relative_url }}" class="{% if page.url == '/infrastructure/' %}active-sub{% endif %}">Data & Infrastructure</a>
+          </div>
+        </div>
         
         <div class="nav-dropdown">
           <a class="page-link dropdown-toggle {% if page.url == '/aespm/' or page.url == '/aestem/' or page.url == '/nanoindentation/' %}active{% endif %}" style="cursor: pointer;">
