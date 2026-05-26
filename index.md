@@ -59,10 +59,16 @@ menu_icon:
           </a>
         </li>
         <li style="margin-bottom: 12px;">
-          <a href="https://kaliningroup.github.io/self_driving_lab/repositories/" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+          <a href="{{ '/repositories/' | relative_url }}" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
             <i class="bi bi-github" style="color: #CC6600;"></i> Code Repositories
           </a>
         </li>
+        <li style="margin-bottom: 12px;">
+          <a href="{{ '/infrastructure/' | relative_url }}" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <i class="bi bi-database-fill" style="color: #CC6600;"></i> Data & Infrastructure
+            </a>
+          </li>
+        </ul>
       </ul> <div style="border-top: 1px solid #e8ecf3; padding-top: 12px; margin-top: auto;">
         <p style="margin: 0 0 8px 0; font-size: 0.9rem; color: #444;">
           <strong>TBA:</strong> Open Data
