@@ -65,6 +65,12 @@ permalink: /repositories/
         <i class="bi bi-github" style="color: #CC6600;"></i> Thin Film Combinatorial Navigation
       </a>
     </li>
+      <!-- random libraries -->
+    <li style="margin-bottom: 20px;">
+      <a href="https://github.com/VivekAChawla/Random-Library-Automated-Nanoindentation" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
+        <i class="bi bi-github" style="color: #CC6600;"></i> Random Combinatorial Libraries and Automated Nanoindentation
+      </a>
+    </li>
       <!-- active learning -->
     <li style="margin-bottom: 20px;">
       <a href="https://github.com/utkarshp1161/Active-learning-in-microscopy" target="_blank" rel="noopener noreferrer" style="color: #1d2a56; font-weight: 600; text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 1.1rem;">
