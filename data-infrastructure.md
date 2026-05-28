@@ -16,13 +16,13 @@ permalink: /infrastructure/
   <div style="border-bottom: 1px solid #e8ecf3; padding-bottom: 12px; margin-bottom: 20px;">
     <h3 style="margin-top: 0; margin-bottom: 8px; color: #1d2a56;">Using Bluesky Tiled for Network-Based Data Access</h3>
     <p style="margin: 0; font-size: 0.95rem; color: #555;">
-      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush
+      <i class="bi bi-people-fill" style="color: #CC6600;"></i> <strong style="color: #333;">Contributors:</strong> Utkarsh Pratiush, Bluesky
     </p>
   </div>
   
   <p style="margin-bottom: 25px; color: #333; line-height: 1.6;">
-    The adoption of the Bluesky Tiled project at the University of Tennessee Knoxville is an ongoing initiative designed to bridge our local lab facilities with the broader instrument orchestration ecosystem. Originating from the synchrotron community — specifically in collaboration with Brookhaven National Laboratory (BNL) and supported by over 50 contributors — this open-source framework is currently being actively integrated into our workflows. Our goal is not just to establish network-based data access for our own instruments, but to actively connect with and contribute back to this global open-science community.
-  </p>
+    The adoption of the Bluesky Tiled project at the University of Tennessee Knoxville is an ongoing collaboration with Brookhaven National Laboratory (BNL) designed to bridge our local lab facilities with the broader instrument orchestration ecosystem. Originating from the synchrotron community and supported by over 50 contributors, this open-source framework is currently being actively integrated into our workflows. Our goal is not just to establish network-based data access for our own instruments, but to connect with and contribute back to global open-science community.
+    </p>
   
   <iframe class="embedded-video" src="https://www.youtube.com/embed/WjbyvYMqVSA?si=lzHZJvYBcB3jAHpB" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: 0 auto; width: 100%; max-width: 1000px; aspect-ratio: 16 / 9; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); border: none;"></iframe>
 
